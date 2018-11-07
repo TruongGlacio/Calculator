@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true" >   <!-- Trạng thái khi nút click -->
+    <shape>
+        <corners
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+            />
+        <gradient
+            android:angle="90"
+            android:centerX="1%"
+            android:centerColor="#212121"
+            android:startColor="#212121"
+            android:endColor="#212121"
+            android:type="linear"
+            />
+        <padding
+            android:left="10dp"
+            android:top="10dp"
+            android:right="10dp"
+            android:bottom="10dp"
+            />
+        <stroke
+            android:width="2dp"
+            android:color="#212121"
+            />
+    </shape>
+</item>
+
+<item>            <!-- Trạng thái bình thường khi không click -->
+    <shape>
+        <corners
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+            />
+
+        <gradient
+            android:angle="90"
+            android:centerX="1%"
+            android:centerColor="#F48FB1"
+            android:startColor="#F48FB1"
+            android:endColor="#EF5350"
+            android:type="linear"
+            />
+        <padding
+            android:left="10dp"
+            android:top="10dp"
+            android:right="10dp"
+            android:bottom="10dp" />
+        <stroke
+            android:width="2dp"
+            android:color="#E0E0E0" /><!-- Thiết lập màu và độ rộng cho viền -->
+
+        <!-- Thiết lập màu nền cho nút -->
+    </shape>
+</item>
+
+</selector>
+
